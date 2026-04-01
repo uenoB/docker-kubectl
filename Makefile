@@ -5,7 +5,7 @@ DOCKER=docker
 
 kubectl.tar: Dockerfile kubectl-$(VERSION)
 	$(DOCKER) buildx build --build-arg VERSION=$(VERSION) --platform linux/amd64 -t $(NAME) .
-	$(DCOKER) save -o $@ $(NAME)
+	$(DOCKER) save -o $@ $(NAME)
 
 kubectl-$(VERSION):
 	curl -L -o $@ https://dl.k8s.io/release/v$(VERSION)/bin/linux/amd64/kubectl
