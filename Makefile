@@ -1,6 +1,6 @@
-VERSION=1.33.2
+VERSION=1.33.4
 NAME=ghcr.io/uenob/kubectl:$(VERSION)
-SHA256=33d0cdec6967817468f0a4a90f537dfef394dcf815d91966ca651cc118393eea
+SHA256=c2ba72c115d524b72aaee9aab8df8b876e1596889d2f3f27d68405262ce86ca1
 DOCKER=docker
 
 kubectl.tar: Dockerfile kubectl-$(VERSION)
