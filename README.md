@@ -7,5 +7,5 @@ This is a Docker container image of kubectl constructed atop [distroless].
 ## Setup
 
 ```sh
-docker pull ghcr.io/uenob/kubectl:v1.28.7
+docker pull ghcr.io/uenob/kubectl:v1.36.4
 ```
